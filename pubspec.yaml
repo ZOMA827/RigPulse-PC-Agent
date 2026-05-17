@@ -1,0 +1,63 @@
+name: rig_pulse
+description: RigPulse PRO — Real-time PC monitoring hub for gamers.
+publish_to: 'none'
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  # مكتبات الفايربيس
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.15.0
+  google_sign_in: ^6.2.1 # 👈 هذي المكتبة السحرية تاع جوجل زدناها
+  # WebSocket connection to pcAgent.py
+  socket_io_client: ^2.0.3+1
+  url_launcher: ^6.3.0  # 👈 ضيف هذا السطر إذا ماكانش كاين
+  # Progress indicators (gauges + bars)
+  percent_indicator: ^4.2.3
+
+  # HTTP requests (for future AI API calls from Flutter)
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  # 🚨 زيد هاد البلوك كامل في آخر الملف:
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png" # 👈 هذا هو رابط الصورة تاعك
+  min_sdk_android: 21 # ضروري لـ Firebase
+
+  # ⬇️ Add Rajdhani + Orbitron fonts:
+  # 1. Download from Google Fonts
+  # 2. Place .ttf files in assets/fonts/
+  # 3. Uncomment below:
+  #
+  # fonts:
+  #   - family: Rajdhani
+  #     fonts:
+  #       - asset: assets/fonts/Rajdhani-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Rajdhani-SemiBold.ttf
+  #         weight: 600
+  #       - asset: assets/fonts/Rajdhani-Bold.ttf
+  #         weight: 700
+  #   - family: Orbitron
+  #     fonts:
+  #       - asset: assets/fonts/Orbitron-Regular.ttf
+  #         weight: 400
+  #       - asset: assets/fonts/Orbitron-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Orbitron-Black.ttf
+  #         weight: 900

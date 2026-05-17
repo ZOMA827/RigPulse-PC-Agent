@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "659227841695",
+    "project_id": "rigpulse-2",
+    "storage_bucket": "rigpulse-2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659227841695:android:eef539059bf77d40d8beaa",
+        "android_client_info": {
+          "package_name": "com.example.rig_pulse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659227841695-89o2mrqd2uvc81osdmlqa5js7fkslppq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rig_pulse",
+            "certificate_hash": "1b8cfb6cffe0fcfa6ccae8750cd115384cb2ebc4"
+          }
+        },
+        {
+          "client_id": "659227841695-2gl022do1s29vj7gudmrfhf15u4k9ehf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjH0vJQgSa2IAL6iKIGsOOWHnsgxHcCo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659227841695-2gl022do1s29vj7gudmrfhf15u4k9ehf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
