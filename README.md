@@ -5,6 +5,19 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
 
+<div align="center">
+  <h3>📥 Download Latest Release (v1.0.0)</h3>
+  <a href="https://github.com/ZOMA827/RigPulse-PC-Agent/releases/download/v1.0.0/RigPulsePro.apk">
+    <img src="https://img.shields.io/badge/Download-Android_APK-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" height="40" />
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/ZOMA827/RigPulse-PC-Agent/releases/download/v1.0.0/pcAgent.exe">
+    <img src="https://img.shields.io/badge/Download-PC_Agent_EXE-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Download EXE" height="40" />
+  </a>
+</div>
+
+<br>
+
 **RigPulse PRO** is an advanced, real-time PC hardware telemetry and cloud control system. Built entirely from scratch, it bridges a futuristic Flutter mobile HUD with a robust Python PC Agent, allowing users to monitor and control their desktop performance remotely via Google Cloud Authentication.
 
 ---
@@ -29,13 +42,12 @@ The project consists of two main components:
 
 ## ⚙️ Installation & Setup Guide
 
-### 1. Setting up the PC Agent (Desktop)
-1. Navigate to the **Releases** section of this repository.
-2. Download the latest `pcAgent.exe` file.
-3. Run `pcAgent.exe` on your gaming PC (Run as Administrator is recommended for killing tasks).
-4. The agent will automatically start a local server and begin broadcasting hardware metrics.
+### 1. Quick Install (Recommended)
+* **Mobile App:** Click the green **Download APK** button above, or [download it here](https://github.com/ZOMA827/RigPulse-PC-Agent/releases/download/v1.0.0/RigPulsePro.apk), and install it on your Android device.
+* **PC Agent:** Click the blue **Download EXE** button above, or [download it here](https://github.com/ZOMA827/RigPulse-PC-Agent/releases/download/v1.0.0/pcAgent.exe), and run it as Administrator on your gaming rig.
 
-### 2. Setting up the Mobile App (Android/iOS)
+### 2. Build from Source
+If you want to build the Flutter app yourself:
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/RigPulse-App-Flutter.git](https://github.com/YOUR_USERNAME/RigPulse-App-Flutter.git)
+   git clone [https://github.com/ZOMA827/RigPulse-PC-Agent.git](https://github.com/ZOMA827/RigPulse-PC-Agent.git)
